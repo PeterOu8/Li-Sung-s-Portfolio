@@ -1,0 +1,19 @@
+{
+    "socials":[
+        {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/li-sung-ou",
+            "icon": "linkedin"
+        },
+        {
+            "name": "GitHub",
+            "href": "https://github.com/PeterOu8",
+            "icon": "github"
+        },
+        {
+            "name": "Email",
+            "href": "Peter1031734590@gmail.com",
+            "icon": "mail"
+        }
+    ]
+}
