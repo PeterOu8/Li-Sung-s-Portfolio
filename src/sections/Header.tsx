@@ -7,7 +7,7 @@ export const Header = () => {
             <Link href={"/"} className="hidden xl:block">
                 <h1 className="name-logo">
                     LISUNG
-                    <span className="text-emerald-300 text-xl">OU</span>
+                    <span className="text-emerald-300 text-2xl">OU</span>
                 </h1>
             </Link>
             <nav>

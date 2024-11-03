@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import emoji from "@/assets/images/memoji.png"
 import  Location from "@/assets/icons/location.svg"
-import Link from "next/link";
+
 import { FileDown } from 'lucide-react';
 
 export const HeroSection = () => {
@@ -24,7 +25,7 @@ export const HeroSection = () => {
                         <p className="text-3xl text-gray-400 pt-4">Software Developer</p>
                         <div className="flex flex-end pt-4">
                             <Location className="size-8 fill-gray-400"/>
-                            <p className="ml-2 text-gray-400 text-2xl">Australia 🇦🇺</p>
+                            <p className="ml-2 text-gray-400 text-2xl">Melbourne, Australia</p>
                         </div>
                         
                         <p className="pt-2">I’m a full-stack developer fueled by caffeine and late-night coding sessions.</p>
