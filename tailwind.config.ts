@@ -23,10 +23,13 @@ const config: Config = {
     },
     fontFamily: {
         primary: "var(--font-hankenGrotesk)",
-        serif: "var(--font-serif)"
+        serif: "var(--font-serif)",
+        logo: "var(--font-goldman)"
     },
     extend: {
-
+        colors: {
+            primary: "#252024"
+        }
     },
   },
   plugins: [],

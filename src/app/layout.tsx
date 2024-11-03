@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Hanken_Grotesk, Calistoga } from "next/font/google";
+import { Hanken_Grotesk, Calistoga, Goldman } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/sections/Header";
 import { twMerge } from "tailwind-merge";
@@ -16,6 +16,12 @@ const calistoga = Calistoga({
     variable: "--font-serif",
 });
 
+const goldman = Goldman({
+    subsets: ["latin"],
+    weight: ["400", "700"],
+    variable: "--font-logo",
+});
+
 export const metadata: Metadata = {
     title: "Li-Sung's Portfolio",
     description: "Li-Sung's portfolio page",
@@ -28,8 +34,12 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={twMerge(hankenGrotesk.variable, calistoga.variable)}>
-                <Header></Header>
+            <body className={twMerge(
+                hankenGrotesk.variable,
+                calistoga.variable,
+                goldman.variable
+                )}>
+                <Header/>
                 {children}
             </body>
         </html>

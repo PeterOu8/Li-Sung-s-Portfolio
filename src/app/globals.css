@@ -4,9 +4,12 @@
 
 @layer base {
     body {
-        @apply antialiased text-white font-primary bg-black;
+        @apply antialiased text-white font-primary bg-primary;
     }
     .nav-item {
         @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
+    }
+    .name-logo {
+        @apply font-logo text-3xl font-semibold;
     }
 }
