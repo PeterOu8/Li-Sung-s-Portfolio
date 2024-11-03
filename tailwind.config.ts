@@ -21,7 +21,13 @@ const config: Config = {
         md: "2rem",
       },
     },
-    extend: {},
+    fontFamily: {
+        primary: "var(--font-hankenGrotesk)",
+        serif: "var(--font-serif)"
+    },
+    extend: {
+
+    },
   },
   plugins: [],
 };
