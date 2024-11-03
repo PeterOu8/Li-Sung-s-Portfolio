@@ -1,2 +1,3 @@
 # Li-Sung-s-Portfolio
-My personal portfolio built with React, NextJS, TailwindCSS, and Framer Motion.
+
+Welcome to my personal portfolio page! This page was built using React, Next.js, TailwindCSS, and Framer Motion.
