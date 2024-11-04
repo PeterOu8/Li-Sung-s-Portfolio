@@ -1,14 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
+import Socials from "@/components/Socials";
 import emoji from "@/assets/images/memoji.png"
 import  Location from "@/assets/icons/location.svg"
+import { FileDown, MapPin } from 'lucide-react';
 
-import { FileDown } from 'lucide-react';
 
 export const HeroSection = () => {
   return (
-    <section className="flex items-center h-screen">
+    <section className="flex justify-center items-center h-screen">
         <div className="container">
             <div className="flex flex-col lg:flex-row-reverse items-center justify-center">
                 <Image 
@@ -27,7 +28,8 @@ export const HeroSection = () => {
                             <Location className="size-8 fill-gray-400"/>
                             <p className="ml-2 text-gray-400 text-2xl">Melbourne, Australia</p>
                         </div>
-                        
+                        <div className="flex flex-end pt-4">
+                        </div>
                         <p className="pt-2">I’m a full-stack developer fueled by caffeine and late-night coding sessions.</p>
                         <div className="flex flex-row items-center mt-4">
                             <Link href="/Resume.pdf" target="_blank">
@@ -37,9 +39,10 @@ export const HeroSection = () => {
                                 </Button>
                             </Link>
                             <div className="flex flex-row ml-8">
-                                <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">GitHub</div>
+                                {/* <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">GitHub</div>
                                 <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">Linkedin</div>
-                                <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">Email</div>
+                                <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">Email</div> */}
+                                <Socials/>
                             </div>
                         </div>
                     </div>
