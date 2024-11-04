@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Header = () => {
     return (
-        <header className="flex flex-row items-center justify-center xl:justify-between fixed w-full text-white p-3 px-5">
+        <header className="flex flex-row items-center justify-center xl:justify-between fixed w-full p-3 px-5">
             {/* Name logo */}
             <Link href={"/"} className="hidden xl:block">
                 <h1 className="name-logo">
