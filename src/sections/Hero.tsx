@@ -39,9 +39,6 @@ export const HeroSection = () => {
                                 </Button>
                             </Link>
                             <div className="flex flex-row ml-8">
-                                {/* <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">GitHub</div>
-                                <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">Linkedin</div>
-                                <div className="ml-3 rounded-md border-2 border-opacity-60 border-gray-400 p-2 py-1">Email</div> */}
                                 <Socials/>
                             </div>
                         </div>

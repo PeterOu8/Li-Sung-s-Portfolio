@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hanken_Grotesk, Calistoga, Teko } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import { Header } from "@/sections/Header";
 import { twMerge } from "tailwind-merge";
@@ -41,6 +42,7 @@ export default function RootLayout({
                 )}>
                 <Header/>
                 {children}
+                <Analytics />
             </body>
         </html>
     );
