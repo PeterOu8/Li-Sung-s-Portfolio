@@ -25,7 +25,6 @@ const config: Config = {
   	fontFamily: {
   		primary: 'var(--font-hankenGrotesk)',
   		serif: 'var(--font-serif)',
-  		logo: 'var(--font-teko)'
   	},
   	extend: {
   		colors: {

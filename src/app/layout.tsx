@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Hanken_Grotesk, Calistoga, Teko } from 'next/font/google';
+import { Hanken_Grotesk, Calistoga} from 'next/font/google';
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import { Header } from "@/sections/Header";
@@ -17,12 +17,6 @@ const calistoga = Calistoga({
     variable: "--font-serif",
 });
 
-const teko = Teko({
-    subsets: ["latin"],
-    weight: ["400", "700"],
-    variable: "--font-teko",
-});
-
 export const metadata: Metadata = {
     title: "Li-Sung's Portfolio",
     description: "Li-Sung's portfolio page",
@@ -37,8 +31,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={twMerge(
                 hankenGrotesk.variable,
-                calistoga.variable,
-                teko.variable
+                calistoga.variable
                 )}>
                 <Header/>
                 {children}

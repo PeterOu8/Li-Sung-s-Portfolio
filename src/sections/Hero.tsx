@@ -9,9 +9,9 @@ import { FileDown, MapPin } from 'lucide-react';
 
 export const HeroSection = () => {
   return (
-    <section className="flex justify-center items-center h-screen">
+    <section className="py-32">
         <div className="container">
-            <div className="flex flex-col lg:flex-row-reverse items-center justify-center">
+            <div className="flex flex-col md:flex-row-reverse items-center justify-center">
                 <Image 
                         src={emoji}
                         width={260}
@@ -25,7 +25,8 @@ export const HeroSection = () => {
                         </h1>
                         <p className="text-3xl text-gray-400 pt-4">Software Developer</p>
                         <div className="flex flex-end pt-4">
-                            <Location className="size-8 fill-gray-400"/>
+                            {/* <Location className="size-8 fill-gray-400"/> */}
+                            <MapPin></MapPin>
                             <p className="ml-2 text-gray-400 text-2xl">Melbourne, Australia</p>
                         </div>
                         <div className="flex flex-end pt-4">

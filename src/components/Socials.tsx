@@ -1,7 +1,6 @@
 import data from "@/data/socials.json";
 import { z } from "zod"
 import dynamicIconImports from "lucide-react/dynamicIconImports";
-import {Linkedin, Github, Mail} from 'lucide-react';
 import Icon from "./Icon";
 
 export default function Socials() {
