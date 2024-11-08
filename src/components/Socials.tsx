@@ -15,7 +15,7 @@ export default function Socials() {
     console.log(socials)
 
     return (
-        <section className="flex gap-3">
+        <div className="flex gap-3">
         {socials.map((item) => (
             <a
             href={item.href}
@@ -26,6 +26,6 @@ export default function Socials() {
             <Icon name={item.icon}/>
             </a>
         ))}
-        </section>
+        </div>
     );
 }

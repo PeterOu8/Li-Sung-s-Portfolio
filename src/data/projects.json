@@ -1,16 +1,24 @@
 {
-
-    "projects":[
+    "projects": [
         {
-            "title": "Dark Saas Landing Page",
-            "year": "2022",
-            "results": [
-              { "description": "Enhanced user experience by 40%" },
-              { "description": "Improved site speed by 50%" },
-              { "description": "Increased mobile traffic by 35%" }
+            "name": "Blotz Task",
+            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
+            "href": "https://github.com/Ben0189/Blotz-Task-App",
+            "image": "",
+            "tags": [
+                "Next.js",
+                "RESTAPI",
+                "C#",
+                "React",
+                "SQL Server"
             ],
-            "link": "https://youtu.be/4k7IdSLxh6w",
-            "image": "place holder"
-          }
+            "links": [
+                    {
+                    "name": "Source",
+                    "href": "https://github.com/Ben0189/Blotz-Task-App",
+                    "icon": "github"
+                    }
+            ]
+        }
     ]
 }
