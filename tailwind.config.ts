@@ -29,6 +29,9 @@ const config: Config = {
   	extend: {
   		colors: {
   			primary: '#252024',
+            background: '#252024',
+            foreground: '#f8fafc',
+            muted: '#9ca3af'
   		},
   	},
   },
