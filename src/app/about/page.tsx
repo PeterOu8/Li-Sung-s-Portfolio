@@ -1,7 +1,7 @@
-export default function Contact() {
+export default function About() {
     return (
         <section className="flex justify-center">
-            <h1>Contact me</h1>
+            <h1>About</h1>
 
         </section>
     );
