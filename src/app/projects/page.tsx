@@ -1,8 +1,9 @@
-export default function Projects() {
+import Projects from "@/components/Projects";
+
+export default function ProjectsPage() {
     return (
         <section className="flex justify-center">
-            <h1>Projects</h1>
-
+            <Projects />
         </section>
     );
 }
