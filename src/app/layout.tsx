@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Hanken_Grotesk, Calistoga} from 'next/font/google';
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
-import { Header } from "@/sections/Header";
+import { Header } from "@/components/Header";
 import { twMerge } from "tailwind-merge";
 
 const hankenGrotesk = Hanken_Grotesk({

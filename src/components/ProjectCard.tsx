@@ -27,7 +27,7 @@ export function ProjectCard({ project }: Props) {
                 <h1 className="text-xl font-bold">{name}</h1>
                 <p className="text-muted text-sm">{description}</p>
             </article>
-            <footer className="flex h-full flex-col items-start justify-between gap-4">
+            <div className="flex h-full flex-col items-start justify-between gap-4">
                 <div className="flex flex-row flex-wrap gap-2">
                     {tags.map(tag => (
                         <div key={tag} className="text-xs bg-foreground text-background muted-border rounded-md p-1 py-0">
@@ -43,7 +43,7 @@ export function ProjectCard({ project }: Props) {
                         </Link>
                     ))}
                 </div>
-            </footer>
+            </div>
         </div>
     );
 }
