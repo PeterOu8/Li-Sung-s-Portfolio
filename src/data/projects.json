@@ -6,6 +6,75 @@
             "href": "https://blotz-task-app.vercel.app/",
             "image": "/blotztask.png",
             "tags": [
+                ".NET8",
+                "C#",
+                "SQL Server",
+                "CRUD",
+                "RESTAPI",
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "shadcn/ui"
+            ],
+            "links": [
+                    {
+                    "name": "Live",
+                    "href": "https://blotz-task-app.vercel.app/",
+                    "icon": "globe"
+                    },
+                    {
+                        "name": "Source",
+                        "href": "https://github.com/Ben0189/Blotz-Task-App",
+                        "icon": "github"
+                    }
+            ]
+        },
+        {
+            "name": "Blotz Task",
+            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
+            "href": "https://blotz-task-app.vercel.app/",
+            "image": "/blotztask.png",
+            "tags": [
+                "Next.js",
+                "RESTAPI",
+                "C#",
+                "React",
+                "SQL Server"
+            ],
+            "links": [
+                    {
+                    "name": "Source",
+                    "href": "https://github.com/Ben0189/Blotz-Task-App",
+                    "icon": "github"
+                    }
+            ]
+        },
+        {
+            "name": "Blotz Task",
+            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
+            "href": "https://blotz-task-app.vercel.app/",
+            "image": "/blotztask.png",
+            "tags": [
+                "Next.js",
+                "RESTAPI",
+                "C#",
+                "React",
+                "SQL Server"
+            ],
+            "links": [
+                    {
+                    "name": "Source",
+                    "href": "https://github.com/Ben0189/Blotz-Task-App",
+                    "icon": "github"
+                    }
+            ]
+        },
+        {
+            "name": "Blotz Task",
+            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
+            "href": "https://blotz-task-app.vercel.app/",
+            "image": "/blotztask.png",
+            "tags": [
                 "Next.js",
                 "RESTAPI",
                 "C#",
