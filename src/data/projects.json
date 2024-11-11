@@ -30,62 +30,21 @@
             ]
         },
         {
-            "name": "Blotz Task",
-            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-            "href": "https://blotz-task-app.vercel.app/",
+            "name": "Portfolio",
+            "description": "My personal Portfolio",
+            "href": "https://www.lisungou.com/",
             "image": "/blotztask.png",
             "tags": [
                 "Next.js",
-                "RESTAPI",
-                "C#",
                 "React",
-                "SQL Server"
+                "TailwindCSS",
+                "shadcn/ui"
             ],
             "links": [
-                    {
-                    "name": "Source",
-                    "href": "https://github.com/Ben0189/Blotz-Task-App",
-                    "icon": "github"
-                    }
-            ]
-        },
-        {
-            "name": "Blotz Task",
-            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-            "href": "https://blotz-task-app.vercel.app/",
-            "image": "/blotztask.png",
-            "tags": [
-                "Next.js",
-                "RESTAPI",
-                "C#",
-                "React",
-                "SQL Server"
-            ],
-            "links": [
-                    {
-                    "name": "Source",
-                    "href": "https://github.com/Ben0189/Blotz-Task-App",
-                    "icon": "github"
-                    }
-            ]
-        },
-        {
-            "name": "Blotz Task",
-            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-            "href": "https://blotz-task-app.vercel.app/",
-            "image": "/blotztask.png",
-            "tags": [
-                "Next.js",
-                "RESTAPI",
-                "C#",
-                "React",
-                "SQL Server"
-            ],
-            "links": [
-                    {
-                    "name": "Source",
-                    "href": "https://github.com/Ben0189/Blotz-Task-App",
-                    "icon": "github"
+                {
+                    "name": "Live",
+                    "href": "https://www.lisungou.com/",
+                    "icon": "globe"
                     }
             ]
         }

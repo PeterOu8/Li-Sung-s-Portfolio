@@ -34,7 +34,7 @@ export default function RootLayout({
                 calistoga.variable
                 )}>
                 <Header/>
-                {children}
+                <main className="my-20">{children}</main>
                 <Analytics />
             </body>
         </html>

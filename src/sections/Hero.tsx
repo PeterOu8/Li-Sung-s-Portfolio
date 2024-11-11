@@ -8,7 +8,7 @@ import { FileDown, MapPin } from 'lucide-react';
 
 export const HeroSection = () => {
   return (
-    <section className="container py-32">
+    <section className="container">
         <div className="flex flex-col items-center gap-10 lg:flex-row-reverse md:justify-end">
             <Image 
                     src={emoji}

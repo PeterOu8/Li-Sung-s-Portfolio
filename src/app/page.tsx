@@ -4,9 +4,9 @@ import Projects from "@/components/Projects";
 export default function Home() {
     const MAX_PROJECTS = 2;
     return (
-        <main className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-20">
             <HeroSection />
             <Projects limit={MAX_PROJECTS}/>
-        </main>
+        </div>
     );
 }
