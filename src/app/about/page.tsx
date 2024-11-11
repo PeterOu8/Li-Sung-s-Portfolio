@@ -1,8 +1,7 @@
 export default function AboutPage() {
     return (
-        <section className="flex justify-center">
-            <h1>About</h1>
-
+        <section className="flex flex-col items-center gap-10">
+            <h1 className="title text-5xl">About me</h1>
         </section>
     );
 }

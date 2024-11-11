@@ -1,8 +1,7 @@
 export default function ContactPage() {
     return (
-        <section className="flex justify-center">
-            <h1>Contact me</h1>
-
+        <section className="flex flex-col items-center gap-10">
+            <h1 className="title text-5xl">Contact</h1>
         </section>
     );
 }
