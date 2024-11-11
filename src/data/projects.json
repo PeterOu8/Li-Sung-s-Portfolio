@@ -3,8 +3,8 @@
         {
             "name": "Blotz Task",
             "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-            "href": "https://github.com/Ben0189/Blotz-Task-App",
-            "image": "",
+            "href": "https://blotz-task-app.vercel.app/",
+            "image": "/blotztask.png",
             "tags": [
                 "Next.js",
                 "RESTAPI",
