@@ -21,7 +21,7 @@ export const HeroSection = () => {
                     <h1 className="title text-5xl">
                         Hello, I am Li-Sung 👋
                     </h1>
-                    <p className="text-2xl text-muted mt-4">Software Developer</p>
+                    <p className="text-2xl text-muted mt-4">Software Engineer</p>
                     <div className="flex items-center mt-2">
                         <MapPin size={"20"}/>
                         <p className="text-muted text-2xl ml-1">Melbourne, Australia</p>
