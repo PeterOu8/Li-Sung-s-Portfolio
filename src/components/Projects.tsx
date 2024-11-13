@@ -17,8 +17,8 @@ export default function ProjectSection({ limit }: Props) {
 
     return (
         <section className="container">
-            <div className="flex flex-col gap-8">
-                {limit && (
+            <div className="flex flex-col gap-10">
+                {limit? (
                     <div className="flex justify-between">
                         <h2 className="title">Featured Projects</h2>
                         <Link href="/projects" className="flex items-center">
@@ -26,9 +26,12 @@ export default function ProjectSection({ limit }: Props) {
                             <Icon 
                                 name="chevron-right"
                                 className="text-muted"
+                                size={17}
                             />
                         </Link>
                     </div>
+                ): (
+                    <h1 className="title text-5xl">Projects</h1>
                 )}
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {projects.map((project, id) => (
