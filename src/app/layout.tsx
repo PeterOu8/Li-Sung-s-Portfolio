@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { twMerge } from "tailwind-merge";
+import Footer from "@/components/Footer";
 
 const hankenGrotesk = Hanken_Grotesk({
     subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
                 )}>
                 <Header/>
                 <main className="my-20">{children}</main>
+                <Footer />
                 <Analytics />
             </body>
         </html>

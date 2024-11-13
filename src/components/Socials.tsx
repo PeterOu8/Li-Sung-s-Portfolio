@@ -14,7 +14,7 @@ export default function Socials() {
                 key={item.name}
                 target="_blank"
                 title={item.name}
-                className="text-foreground hover:text-muted transition duration-300"
+                className="text-foreground/90 hover:text-muted transition duration-300"
                 >
                 <Icon name={item.icon}/>
                 </a>
