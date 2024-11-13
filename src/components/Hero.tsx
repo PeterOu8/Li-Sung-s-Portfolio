@@ -28,7 +28,7 @@ export const HeroSection = () => {
                     </div>
                     <div className="flex flex-end mt-2">
                     </div>
-                    <p className="mt-2">I’m a full-stack developer fueled by caffeine and late-night coding sessions.</p>
+                    <p className="mt-2">I’m a software engineer fueled by caffeine and late-night coding sessions.</p>
                     <div className="flex flex-row items-center mt-4">
                         <Link href="/Resume.pdf" target="_blank">
                             <Button className="muted-border bg-background hover:bg-foreground/20 transition duration-300">
