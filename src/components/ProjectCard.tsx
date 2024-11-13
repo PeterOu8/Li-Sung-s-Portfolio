@@ -37,7 +37,7 @@ export function ProjectCard({ project }: Props) {
                 </div>
                 <div className="flex flex-row justify-start gap-2">
                     {links.map(link => (
-                        <Link key= {link.name} href={link.href} target="_blank" className="flex gap-1 items-center bg-foreground text-background muted-border rounded-md p-2 py-1">
+                        <Link key= {link.name} href={link.href} target="_blank" className="flex gap-1 items-center bg-foreground text-background muted-border rounded-md p-2 py-0.5">
                             <Icon name={link.icon} size={12}/>
                             <span className="text-xs font-semibold">{link.name}</span>
                         </Link>

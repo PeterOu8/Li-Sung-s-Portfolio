@@ -13,6 +13,6 @@
         @apply text-2xl tracking-wide font-serif;
     }
     .muted-border {
-        @apply border border-opacity-60 border-muted/90 rounded-xl shadow;
+        @apply border border-opacity-60 border-muted/50 rounded-xl shadow;
     }
 }
