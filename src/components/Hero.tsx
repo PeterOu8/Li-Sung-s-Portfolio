@@ -31,7 +31,7 @@ export const HeroSection = () => {
                     <p className="mt-2">I’m a software engineer fueled by caffeine and late-night coding sessions.</p>
                     <div className="flex flex-row items-center mt-4">
                         <Link href="/Resume.pdf" target="_blank">
-                            <Button className="muted-border bg-background hover:bg-foreground/20 transition duration-300">
+                            <Button>
                                 <span className="font-semibold">Resume</span>
                                 <FileDown />
                             </Button>
