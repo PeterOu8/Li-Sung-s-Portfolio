@@ -1,0 +1,16 @@
+{
+    "experience": [
+      {
+        "name": "The University of Queensland",
+        "href": "https://www.uq.edu.au/",
+        "title": "ICTE Volunteer",
+        "logo": "/UQ.png",
+        "start": "Oct 2019",
+        "end": "Feb 2020",
+        "description": [
+          "Coordinated and managed 10+ campus events, including cultural activities and language workshops, improving engagement by 20%.",
+          "Mentored 50+ international students, helping them getting involved in the campus life and improving their confidence in conversational English by organising weekly meetups."
+        ]
+      }
+    ]
+  }
