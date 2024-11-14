@@ -16,6 +16,19 @@ const project = z.object({
     links: z.array(iconStruct),
 });
 
+const experience = z.object({
+    name: z.string(),
+    href: z.string(),
+    title: z.string(),
+    logo: z.string(),
+    start: z.string(),
+    end: z.string().optional(),
+    description: z.array(z.string()).optional(),
+    links: z.array(iconStruct).optional(),
+});
+
 export type Project = z.infer<typeof project>;
+export type Experience = z.infer<typeof experience>;
+
 export const projectSchema = z.object({ projects: z.array(project) });
 export const socialSchema = z.object({ socials: z.array(iconStruct) });
