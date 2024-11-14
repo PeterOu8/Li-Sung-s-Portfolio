@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import emoji from "@/assets/images/memoji.png"
 import { Button } from "@/components/ui/button"
-import {Socials} from "@/components/Socials";
+import { Socials } from "@/components/Socials";
 import { FileDown, MapPin } from 'lucide-react';
 
 
@@ -11,7 +10,7 @@ export const HeroSection = () => {
     <section className="container">
         <div className="flex flex-col items-center gap-10 md:flex-row-reverse md:justify-end">
             <Image 
-                    src={emoji}
+                    src= {"/images/memoji.png"}
                     width={210}
                     height={210}
                     alt="Me coding from behind laptop"
