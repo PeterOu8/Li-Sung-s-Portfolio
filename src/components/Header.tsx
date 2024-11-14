@@ -13,9 +13,14 @@ const navLinks = [
       name: "About",
       href: "/about",
     },
+    // WIP redeploy after page finished
+    // {
+    //   name: "Contact",
+    //   href: "/contact",
+    // },
     {
-      name: "Contact",
-      href: "/contact",
+        name: "Contact",
+        href: "mailto:lisungou8@gmail.com",
     },
 ];
 
