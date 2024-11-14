@@ -1,19 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button"
-import Socials from "@/components/Socials";
 import emoji from "@/assets/images/memoji.png"
+import { Button } from "@/components/ui/button"
+import {Socials} from "@/components/Socials";
 import { FileDown, MapPin } from 'lucide-react';
 
 
 export const HeroSection = () => {
   return (
     <section className="container">
-        <div className="flex flex-col items-center gap-10 lg:flex-row-reverse md:justify-end">
+        <div className="flex flex-col items-center gap-10 md:flex-row-reverse md:justify-end">
             <Image 
                     src={emoji}
-                    width={240}
-                    height={240}
+                    width={210}
+                    height={210}
                     alt="Me coding from behind laptop"
             />
             <div className="flex flex-row items-center">
@@ -21,14 +21,14 @@ export const HeroSection = () => {
                     <h1 className="title text-5xl">
                         Hello, I am Li-Sung 👋
                     </h1>
-                    <p className="text-2xl text-muted mt-4">Software Engineer</p>
-                    <div className="flex flex-row items-center mt-2">
+                    <h2 className="text-2xl text-muted mt-4">Software Engineer<br/></h2>
+                    <div className="flex flex-row items-center my-2">
                         <MapPin size={"20"}/>
-                        <p className="text-muted text-2xl ml-1">Melbourne, Australia</p>
+                        <h3 className="text-muted text-lg ml-1">Melbourne, Australia</h3>
                     </div>
                     <div className="flex flex-end mt-2">
                     </div>
-                    <p className="mt-2">I’m a software engineer fueled by caffeine and late-night coding sessions.</p>
+                    <p>I’m a software engineer fueled by caffeine and late-night coding sessions.</p>
                     <div className="flex flex-row items-center mt-4">
                         <Link href="/Resume.pdf" target="_blank">
                             <Button>

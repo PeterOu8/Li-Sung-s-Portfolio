@@ -1,7 +1,7 @@
-import { Project } from "@/lib/schemas";
 import Icon  from "@/components/Icon";
 import Image from "next/image";
 import Link from "next/link";
+import { Project } from "@/lib/schemas";
 
 interface Props {
     project: Project;

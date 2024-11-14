@@ -1,7 +1,7 @@
-import Projects from "@/components/Projects";
+import {ProjectSection} from "@/components/Projects";
 
 export default function ProjectsPage() {
     return (
-        <Projects />
+        <ProjectSection />
     );
 }

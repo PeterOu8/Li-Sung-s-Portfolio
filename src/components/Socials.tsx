@@ -1,8 +1,8 @@
 import data from "@/data/socials.json";
-import { socialSchema } from "@/lib/schemas";
 import Icon from "./Icon";
+import { socialSchema } from "@/lib/schemas";
 
-export default function Socials() {
+export const Socials = () => {
 
     const socials = socialSchema.parse(data).socials;
 

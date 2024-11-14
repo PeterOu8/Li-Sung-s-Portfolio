@@ -1,11 +1,10 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Hanken_Grotesk, Calistoga} from 'next/font/google';
-import { Analytics } from "@vercel/analytics/react"
-import "./globals.css";
-import { Header } from "@/components/Header";
 import { twMerge } from "tailwind-merge";
-import Footer from "@/components/Footer";
-
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { Analytics } from "@vercel/analytics/react"
 const hankenGrotesk = Hanken_Grotesk({
     subsets: ["latin"],
     weight: ["100", "200", "300", "400", "500", "600", "700", "800"],

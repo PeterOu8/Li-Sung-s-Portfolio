@@ -1,15 +1,16 @@
 import data from "@/data/projects.json";
 import Link from "next/link";
+import Icon from "./Icon";
 import { projectSchema } from "@/lib/schemas";
 import { ProjectCard } from "./ProjectCard";
-import Icon from "./Icon";
+
 
 
 interface Props {
     limit?: number;
 }
 
-export default function ProjectSection({ limit }: Props) {
+export const ProjectSection = ({ limit }: Props) => {
     let projects = projectSchema.parse(data).projects;
     if (limit) {
         projects = projects.slice(0, limit);

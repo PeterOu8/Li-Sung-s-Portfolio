@@ -1,5 +1,5 @@
-import { z } from "zod";
 import dynamicIconImports from "lucide-react/dynamicIconImports";
+import { z } from "zod";
 
 const iconStruct = z.object({
     name: z.string(),
