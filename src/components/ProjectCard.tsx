@@ -7,7 +7,7 @@ interface Props {
     project: Project;
 }
   
-export function ProjectCard({ project }: Props) {
+export const ProjectCard = ({ project }: Props) => {
     const { name, description, href, image, tags, links } = project;
 
     return (

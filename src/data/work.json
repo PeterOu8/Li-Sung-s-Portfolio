@@ -1,9 +1,9 @@
 {
-    "experience": [
+    "work": [
       {
         "name": "The University of Queensland",
-        "href": "https://www.uq.edu.au/",
         "title": "ICTE Volunteer",
+        "href": "https://www.uq.edu.au/",
         "logo": "/UQ.png",
         "start": "Oct 2019",
         "end": "Feb 2020",
