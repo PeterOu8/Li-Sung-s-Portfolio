@@ -20,7 +20,7 @@ export const TimelineItem = ({ experience }: Props) => {
                 alt={name}
                 className="object-fill"
             />
-          <AvatarFallback>{name[0]}</AvatarFallback>
+          <AvatarFallback>{name}</AvatarFallback>
         </Avatar>
         <div>
             {start && (
