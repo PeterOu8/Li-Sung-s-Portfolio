@@ -22,13 +22,13 @@ export const SkillIcons = ()=> {
     return(
         <div className="flex flex-row flex-wrap gap-3">
             <div className="flex flex-row items-center gap-2 p-2 rounded-xl bg-muted/15">
-                <Image src="/dotnet.svg" alt="dotnet 8 icon" width={100} height={100} className="size-7"/>
-                <span className="text-sm text-foreground font-semibold">.NET8</span>
+                <Image src="/dotnet.svg" alt="dotnet 8 icon" width={100} height={100} className="size-6"/>
+                <span className="text-sm text-foreground/80 font-medium">.NET8</span>
             </div>
             {techStack.map(skill => (
                 <div key={skill.name} className="flex flex-row items-center gap-2 p-2 rounded-xl bg-muted/15">
-                    <StackIcon name={skill.iconTitle} className="size-7"/>
-                    <span className="text-sm text-foreground font-semibold">{skill.name}</span>
+                    <StackIcon name={skill.iconTitle} className="size-6" />
+                    <span className="text-sm text-foreground/80 font-medium">{skill.name}</span>
                 </div>
             ))}
         </div>
