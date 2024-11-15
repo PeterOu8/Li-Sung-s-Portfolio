@@ -14,7 +14,7 @@ export const TimelineItem = ({ experience }: Props) => {
 
     return (
         <li className="p-4 flex flex-row gap-6">
-        <Avatar className="size-12 border">
+        <Avatar className="size-12">
             <AvatarImage
                 src={logo}
                 alt={name}
