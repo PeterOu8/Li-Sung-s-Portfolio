@@ -10,17 +10,20 @@ export const ExperienceSection = () => {
     const education = educationSchema.parse(educationData).education;
     
     return (
-        <Tabs defaultValue="education">
-            <TabsList className="mb-2 grid w-full grid-cols-2">
-                <TabsTrigger value="education">Education</TabsTrigger>
-                <TabsTrigger value="work">Work</TabsTrigger>
+        <section className="container">
+            <Tabs defaultValue="education">
+                <TabsList className="mb-2 grid w-full    grid-cols-2">
+                    <TabsTrigger value="education">Education</TabsTrigger>
+                    <TabsTrigger value="work">Work</TabsTrigger>
+                </TabsList>
                 <TabsContent value="work">
                     <ExperienceCard experience={work}></ExperienceCard>
                 </TabsContent>
                 <TabsContent value="education">
                     <ExperienceCard experience={education}></ExperienceCard>
                 </TabsContent>
-            </TabsList>
-        </Tabs>
+            </Tabs>
+        </section>
+
     );
 }

@@ -8,7 +8,7 @@ interface Props {
 export const ExperienceCard = ({ experience }: Props) => {
 
     return (
-        <div className="flex flex-col muted-border p-6">
+        <div className="muted-border">
             <ul>
                 {experience.map((exp, id) => (
                     <TimelineItem key={id} experience={exp} />
