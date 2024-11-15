@@ -24,30 +24,5 @@
           }
         ]
       }
-      ,
-      {
-        "name": "The University of Queensland",
-        "title": "Bachelor of Information Technology/Business Managment",
-        "href": "https://www.uq.edu.au/",
-        "logo": "/UQ.svg",
-        "start": "Feb 2020",
-        "end": "Jul 2024",
-        "description": [
-          "Graduated with a Dual major in Software Design and Marketing",
-          "2-time Winner of the UQ Innovation showcase"
-        ],
-        "links": [
-          {
-            "name": "Best Software Project",
-            "href": "https://github.com/UQdeco2800/2022-studio-2",
-            "icon": "github"
-          },
-          {
-            "name": "Best UX Project",
-            "href": "https://eecs.uq.edu.au/article/2023/11/2023-eecs-innovation-showcase",
-            "icon": "globe"
-          }
-        ]
-      }
     ]
   }
