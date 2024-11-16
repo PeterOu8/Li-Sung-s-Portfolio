@@ -13,12 +13,12 @@ export const TimelineItem = ({ experience }: Props) => {
     const { name, title, href, logo, start, end, description, links } = experience;
 
     return (
-        <li className="p-4 flex flex-row gap-6">
-        <Avatar className="size-12">
+        <li className="relative ml-10 py-4">
+        <Avatar className="absolute top-4 -left-16 size-12">
             <AvatarImage
                 src={logo}
                 alt={name}
-                className="object-fill"
+                className="object-cover"
             />
           <AvatarFallback>{name}</AvatarFallback>
         </Avatar>
@@ -33,13 +33,23 @@ export const TimelineItem = ({ experience }: Props) => {
             <h2 className="font-semibold leading-none">{name}</h2>
             {title && <p className="text-sm text-muted">{title}</p>}
             {description && (
-                <ul className="list-inside list-disc">
+                <ul className=" pt-1 list-inside list-disc">
                     {description.map((desc, i) => (
-                        <li key={i} className="text-sm">
+                        <li key={i} className="text-sm text-foreground/90">
                             {desc}
                         </li>
                     ))}
                 </ul>
+            )}
+            {links && links.length > 0 && (
+                <div className="flex flex-row justify-start gap-2 pt-2">
+                    {links.map(link => (
+                        <Link key= {link.name} href={link.href} target="_blank" className="flex gap-1 items-center bg-foreground text-background muted-border rounded-md p-2 py-0.5">
+                            <Icon name={link.icon} size={12}/>
+                            <span className="text-xs font-semibold">{link.name}</span>
+                        </Link>
+                    ))}
+                </div>
             )}
         </div>
 

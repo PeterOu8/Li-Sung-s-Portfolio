@@ -9,7 +9,7 @@ export const ExperienceCard = ({ experience }: Props) => {
 
     return (
         <div className="muted-border">
-            <ul>
+            <ul className="border-l border-opacity-60 border-muted/50 shadow ml-10">
                 {experience.map((exp, id) => (
                     <TimelineItem key={id} experience={exp} />
                 ))}
