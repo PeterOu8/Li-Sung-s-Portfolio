@@ -42,7 +42,7 @@ export const TimelineItem = ({ experience }: Props) => {
                 </ul>
             )}
             {links && links.length > 0 && (
-                <div className="flex flex-row justify-start gap-2 pt-2">
+                <div className="flex flex-row justify-start flex-wrap gap-2 pt-2">
                     {links.map(link => (
                         <Link key= {link.name} href={link.href} target="_blank" className="flex gap-1 items-center bg-foreground text-background muted-border rounded-md p-2 py-0.5">
                             <Icon name={link.icon} size={12}/>
