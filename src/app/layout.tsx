@@ -5,6 +5,8 @@ import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const hankenGrotesk = Hanken_Grotesk({
     subsets: ["latin"],
     weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -37,6 +39,7 @@ export default function RootLayout({
                 <main className="my-20">{children}</main>
                 <Footer />
                 <Analytics />
+                <SpeedInsights />
             </body>
         </html>
     );
