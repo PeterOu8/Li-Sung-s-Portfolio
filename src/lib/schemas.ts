@@ -27,6 +27,23 @@ const experience = z.object({
     links: z.array(iconStruct).optional(),
 });
 
+export const ContactFormSchema = z.object({
+    name: z.string()
+        .min(1, { message: "Name is required" })
+        .min(2, { message: "Must be at least 2 characters" })
+        .max(50, { message: "Maximum 50 characters" }),
+    email: z.string()
+        .min(1, { message: "Email is required" })
+        .max(50, { message: "Maximum 50 characters" })
+        .email("Invalid email"),
+    subject: z.string()
+        .min(1, { message: "Subject is required" })
+        .max(30 , { message: "Maximum 30 characters" }),
+    message: z.string()
+        .min(1, { message: "Message is required" })
+        .max(500, { message: "Maximum 500 characters" }),
+});
+
 export type Project = z.infer<typeof project>;
 export type Experience = z.infer<typeof experience>;
 
