@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/form";
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "./ui/button";
+import { toast } from "sonner";
 
 type emailInput = z.infer<typeof ContactFormSchema>;
 
@@ -33,7 +34,13 @@ export const ContactForm = () => {
 
     const processForm: SubmitHandler<emailInput> = async (data) => {
         const result = await sendEmail(data);
-        console.log(result);
+
+        if (result.error) {
+            toast.error("Uh oh! Something went wrong. Please try again later.");
+            return;
+        }
+    
+        toast.success("Message sent successfully!");
         form.reset();
     };
 

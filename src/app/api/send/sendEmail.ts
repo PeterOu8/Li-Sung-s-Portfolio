@@ -35,6 +35,6 @@ export async function sendEmail(data: ContactFormInput) {
 
         return { success: true };
     } catch (error) {
-        return Response.json({ error }, { status: 500 });
+        return {error};
     }
 }

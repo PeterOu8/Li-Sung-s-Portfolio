@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Toaster } from "sonner";
 
 const hankenGrotesk = Hanken_Grotesk({
     subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({
                 <Header/>
                 <main className="my-20">{children}</main>
                 <Footer />
+                <Toaster />
                 <Analytics />
                 <SpeedInsights />
             </body>
