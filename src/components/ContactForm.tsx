@@ -9,17 +9,14 @@ import { Input } from "./ui/input";
 import {
     Form,
     FormControl,
-    // FormDescription,
     FormField,
     FormItem,
-    // FormLabel,
     FormMessage,
 } from "@/components/ui/form";
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "./ui/button";
 import { toast } from "sonner";
-import { Loader, SendHorizontal } from "lucide-react";
-<Loader />
+import { LoaderCircle, SendHorizontal } from "lucide-react";
 
 type emailInput = z.infer<typeof ContactFormSchema>;
 
@@ -48,8 +45,8 @@ export const ContactForm = () => {
 
     return(
         <Form {...form}>
-            <form onSubmit={form.handleSubmit(processForm)} className="flex flex-col gap-8">
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <form onSubmit={form.handleSubmit(processForm)} >
+                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4">
                     <FormField
                         control={form.control}
                         name="name"
@@ -80,7 +77,7 @@ export const ContactForm = () => {
                     control={form.control}
                     name="subject"
                     render={({ field }) => (
-                        <FormItem>
+                        <FormItem className="h-16">
                             <FormControl>
                                 <Input placeholder="Subject" {...field} />
                             </FormControl>
@@ -92,7 +89,7 @@ export const ContactForm = () => {
                     control={form.control}
                     name="message"
                     render={({ field }) => (
-                        <FormItem>
+                        <FormItem className="h-24">
                             <FormControl>
                                 <Textarea placeholder="Message" {...field} />
                             </FormControl>
@@ -104,7 +101,7 @@ export const ContactForm = () => {
                 {form.formState.isSubmitting? (
                     <div className="flex flex-row items-center gap-3">
                         <span>Submitting</span>
-                        <Loader />
+                        <LoaderCircle className="animate-spin"/>
                     </div>
                 ):(
                     <div className="flex flex-row items-center gap-3">
