@@ -18,6 +18,8 @@ import {
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "./ui/button";
 import { toast } from "sonner";
+import { Loader, SendHorizontal } from "lucide-react";
+<Loader />
 
 type emailInput = z.infer<typeof ContactFormSchema>;
 
@@ -98,7 +100,19 @@ export const ContactForm = () => {
                         </FormItem>
                     )}
                 />
-            <Button type="submit">Submit</Button>
+            <Button type="submit">
+                {form.formState.isSubmitting? (
+                    <div className="flex flex-row items-center gap-3">
+                        <span>Submitting</span>
+                        <Loader />
+                    </div>
+                ):(
+                    <div className="flex flex-row items-center gap-3">
+                        <span>Submit message</span>
+                        <SendHorizontal />
+                    </div>
+                )}
+            </Button>
         </form>
       </Form>
     );

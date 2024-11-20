@@ -23,9 +23,9 @@ export async function sendEmail(data: ContactFormInput) {
         replyTo: [email],
         subject: `Lisungou.com - ${subject}!`,
         text: `Name:\n${name}
-            \n\nEmail:\n${email}
-            \n\nSubject:\n${subject}
-            \n\nMessage:\n${message}`,
+            \nEmail:\n${email}
+            \nSubject:\n${subject}
+            \nMessage:\n${message}`,
         });
 
         if (!data || error) {
