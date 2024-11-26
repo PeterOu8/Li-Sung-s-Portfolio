@@ -41,10 +41,15 @@
                 "shadcn/ui"
             ],
             "links": [
-                {
-                    "name": "Live",
-                    "href": "https://www.lisungou.com/",
-                    "icon": "globe"
+                    {
+                        "name": "Live",
+                        "href": "https://www.lisungou.com/",
+                        "icon": "globe"
+                    },
+                    {
+                        "name": "Source",
+                        "href": "https://github.com/PeterOu8/Li-Sung-s-Portfolio",
+                        "icon": "github"
                     }
             ]
         }
