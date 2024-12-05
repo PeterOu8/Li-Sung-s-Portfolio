@@ -52,6 +52,23 @@
                         "icon": "github"
                     }
             ]
+        },
+        {
+            "name": "OgCiSum",
+            "description": "Ogcisum is a cross-platform mobile app for music sharing based on location providing a connection between online and offline music sharing. The users can see music shared in the pre-definied location when they are within 100 meters to the location.",
+            "image": "/ogcisum.png",
+            "tags": [
+                "React",
+                "ReactNative",
+                "Android Studio"
+            ],
+            "links": [
+                    {
+                        "name": "Source",
+                        "href": "https://github.com/PeterOu8/OgCiSum",
+                        "icon": "github"
+                    }
+            ]
         }
     ]
 }
