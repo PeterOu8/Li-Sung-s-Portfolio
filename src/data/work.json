@@ -1,16 +1,39 @@
 {
     "work": [
-      {
-        "name": "The University of Queensland",
-        "title": "ICTE Volunteer",
-        "href": "https://www.uq.edu.au/",
-        "logo": "/UQ.png",
-        "start": "Oct 2019",
-        "end": "Feb 2020",
-        "description": [
-          "Coordinated and managed 10+ campus events, including cultural activities and language workshops, improving engagement by 20%.",
-          "Mentored 50+ international students, helping them getting involved in the campus life and improving their confidence in conversational English by organising weekly meetups."
-        ]
-      }
+        {
+            "name": "Red Bridge",
+            "title": "Frontend Developer",
+            "logo": "/RB.png",
+            "start": "Aug 2024",
+            "end": "Dec 2024",
+            "description": [
+              "Translated design into HTML, CSS, and JavaScript with the UI and marketing team, streamlining the design and improving functionality of product landing pages.",
+              "Resolved cross-platform compatibility issues to incorporate mobile compatibility and accessibility across platforms."
+            ]
+          },
+        {
+            "name": "The University of Queensland",
+            "title": "Academic Tutor",
+            "href": "https://www.uq.edu.au/",
+            "logo": "/UQ.png",
+            "start": "Jul 2022",
+            "end": "Dec 2022",
+            "description": [
+            "Tutored and taught university students about Java programming, including OOP design, debugging, and unit testing.",
+            "Assessed student assessment, giving constructive feedbacks and ensuring students follow good programming practices."
+            ]
+        },
+        {
+            "name": "The University of Queensland",
+            "title": "ICTE Volunteer",
+            "href": "https://www.uq.edu.au/",
+            "logo": "/UQ.png",
+            "start": "Oct 2019",
+            "end": "Feb 2020",
+            "description": [
+            "Coordinated and managed 10+ campus events, including cultural activities and language workshops, improving engagement by 20%.",
+            "Mentored 50+ international students, helping them getting involved in the campus life and improving their confidence in conversational English by organising weekly meetups."
+            ]
+        }
     ]
   }
