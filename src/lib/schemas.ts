@@ -19,7 +19,7 @@ const project = z.object({
 const experience = z.object({
     name: z.string(),
     title: z.string(),
-    href: z.string(),
+    href: z.string().optional(),
     logo: z.string(),
     start: z.string(),
     end: z.string().optional(),
