@@ -1,74 +1,117 @@
 {
-    "projects": [
+  "projects": [
+    {
+      "name": "Resumade (WIP)",
+      "description": "AI powered resume builder designed to help me through my job searches. Tailor resumes and cover letter with job description and the help of AI.",
+      "href": "https://github.com/PeterOu8/Resumade",
+      "image": "/resumade.png",
+      "tags": [
+        "OPEN AI APIs",
+        "RESTAPI",
+        "Next.js",
+        "React",
+        "TailwindCSS",
+        "shadcn/ui"
+      ],
+      "links": [
         {
-            "name": "Blotz Task",
-            "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-            "href": "https://blotz-task-app.vercel.app/",
-            "image": "/blotztask.png",
-            "tags": [
-                ".NET8",
-                "C#",
-                "SQL Server",
-                "CRUD",
-                "RESTAPI",
-                "Next.js",
-                "React",
-                "TailwindCSS",
-                "shadcn/ui"
-            ],
-            "links": [
-                    {
-                    "name": "Live",
-                    "href": "https://blotz-task-app.vercel.app/",
-                    "icon": "globe"
-                    },
-                    {
-                        "name": "Source",
-                        "href": "https://github.com/Blotz-Org/Blotz-Task-App",
-                        "icon": "github"
-                    }
-            ]
-        },
-        {
-            "name": "Portfolio",
-            "description": "Dynamic front-end portfolio designed to showcase my development skills and modern UI practices, highlighting expertise in building responsive applications.",
-            "href": "https://www.lisungou.com/",
-            "image": "/portfolio.png",
-            "tags": [
-                "Next.js",
-                "React",
-                "TailwindCSS",
-                "shadcn/ui"
-            ],
-            "links": [
-                    {
-                        "name": "Live",
-                        "href": "https://www.lisungou.com/",
-                        "icon": "globe"
-                    },
-                    {
-                        "name": "Source",
-                        "href": "https://github.com/PeterOu8/Li-Sung-s-Portfolio",
-                        "icon": "github"
-                    }
-            ]
-        },
-        {
-            "name": "OgCiSum",
-            "description": "Ogcisum is a cross-platform mobile app for music sharing based on location providing a connection between online and offline music sharing. The users can see music shared in the pre-definied location when they are within 100 meters of the location.",
-            "image": "/ogcisum.png",
-            "tags": [
-                "React",
-                "ReactNative",
-                "Android Studio"
-            ],
-            "links": [
-                    {
-                        "name": "Source",
-                        "href": "https://github.com/PeterOu8/OgCiSum",
-                        "icon": "github"
-                    }
-            ]
+          "name": "Source",
+          "href": "https://github.com/PeterOu8/Resumade",
+          "icon": "github"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Blotz Devshare",
+      "description": "Resource sharing platform designed to help users efficiently search curated software devloper resources with AI embeddings in vector database",
+      "href": "https://dev-share-ui-hce9cxaxacc8fahu.australiaeast-01.azurewebsites.net/",
+      "image": "/devshare.png",
+      "tags": [
+        ".NET9",
+        "C#",
+        "OPEN AI APIs",
+        "Qdrant",
+        "SQL Server",
+        "CRUD",
+        "RESTAPI",
+        "Next.js",
+        "React",
+        "TailwindCSS",
+        "shadcn/ui"
+      ],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://dev-share-ui-hce9cxaxacc8fahu.australiaeast-01.azurewebsites.net/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Ben0189/dev-share",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Blotz Task",
+      "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
+      "href": "https://blotz-task-app.vercel.app/",
+      "image": "/blotztask.png",
+      "tags": [
+        ".NET8",
+        "C#",
+        "SQL Server",
+        "CRUD",
+        "RESTAPI",
+        "Next.js",
+        "React",
+        "TailwindCSS",
+        "shadcn/ui"
+      ],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://blotz-task-app.vercel.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Blotz-Org/Blotz-Task-App",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "description": "Dynamic front-end portfolio designed to showcase my development skills and modern UI practices, highlighting expertise in building responsive applications.",
+      "href": "https://www.lisungou.com/",
+      "image": "/portfolio.png",
+      "tags": ["Next.js", "React", "TailwindCSS", "shadcn/ui"],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://www.lisungou.com/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/PeterOu8/Li-Sung-s-Portfolio",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "OgCiSum",
+      "description": "Ogcisum is a cross-platform mobile app for music sharing based on location providing a connection between online and offline music sharing. The users can see music shared in the pre-definied location when they are within 100 meters of the location.",
+      "image": "/ogcisum.png",
+      "tags": ["React", "ReactNative", "Android Studio"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/PeterOu8/OgCiSum",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
 }
