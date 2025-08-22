@@ -55,7 +55,7 @@
     {
       "name": "Blotz Task",
       "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-      "href": "https://blotz-task-app.vercel.app/",
+      "href": "https://wapp-blotztaskapp-ui-staging.azurewebsites.net/",
       "image": "/blotztask.png",
       "tags": [
         ".NET8",
