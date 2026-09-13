@@ -24,12 +24,12 @@ export const SkillIcons = () => {
       <div className="flex flex-row items-center gap-2 p-2 rounded-xl bg-muted/15">
         <Image
           src="/dotnet.svg"
-          alt="dotnet 8 icon"
+          alt="dotnet 10 icon"
           width={100}
           height={100}
           className="size-6"
         />
-        <span className="text-sm text-foreground/80 font-medium">.NET8</span>
+        <span className="text-sm text-foreground/80 font-medium">.NET10</span>
       </div>
       {techStack.map((skill) => (
         <div
