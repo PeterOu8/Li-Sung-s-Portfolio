@@ -1,11 +1,14 @@
 {
   "projects": [
     {
-      "name": "Resumade (WIP)",
-      "description": "AI powered resume builder designed to help me through my job searches. Tailor resumes and cover letter with job description and the help of AI.",
+      "name": "Resumade",
+      "description": "AI powered resume builder designed to help me through my job searches. Tailor resumes with job description and the help of AI.",
       "href": "https://github.com/PeterOu8/Resumade",
       "image": "/resumade.png",
       "tags": [
+        ".NET10",
+        "C#",
+        "PostgreSQL",
         "OPEN AI APIs",
         "RESTAPI",
         "Next.js",
@@ -24,7 +27,6 @@
     {
       "name": "Blotz Devshare",
       "description": "Resource sharing platform designed to help users efficiently search curated software devloper resources with AI embeddings in vector database",
-      "href": "https://dev-share-ui-hce9cxaxacc8fahu.australiaeast-01.azurewebsites.net/",
       "image": "/devshare.png",
       "tags": [
         ".NET9",
@@ -41,11 +43,6 @@
       ],
       "links": [
         {
-          "name": "Live",
-          "href": "https://dev-share-ui-hce9cxaxacc8fahu.australiaeast-01.azurewebsites.net/",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
           "href": "https://github.com/Ben0189/dev-share",
           "icon": "github"
@@ -55,7 +52,6 @@
     {
       "name": "Blotz Task",
       "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-      "href": "https://wapp-blotztaskapp-ui-staging.azurewebsites.net/",
       "image": "/blotztask.png",
       "tags": [
         ".NET8",
@@ -70,13 +66,8 @@
       ],
       "links": [
         {
-          "name": "Live",
-          "href": "https://blotz-task-app.vercel.app/",
-          "icon": "globe"
-        },
-        {
           "name": "Source",
-          "href": "https://github.com/Blotz-Org/Blotz-Task-App",
+          "href": "https://github.com/sol-wizard/Blotz-Task-App",
           "icon": "github"
         }
       ]
