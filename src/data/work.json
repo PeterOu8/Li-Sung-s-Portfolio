@@ -1,39 +1,59 @@
 {
-    "work": [
-        {
-            "name": "Red Bridge",
-            "title": "Frontend Developer",
-            "logo": "/RB.png",
-            "start": "Aug 2024",
-            "end": "Dec 2024",
-            "description": [
-              "Translated design into HTML, CSS, and JavaScript with the UI and marketing team, streamlining the design and improving functionality of product landing pages.",
-              "Resolved cross-platform compatibility issues to incorporate mobile compatibility and accessibility across platforms."
-            ]
-          },
-        {
-            "name": "The University of Queensland",
-            "title": "Academic Tutor",
-            "href": "https://www.uq.edu.au/",
-            "logo": "/UQ.png",
-            "start": "Jul 2022",
-            "end": "Dec 2022",
-            "description": [
-            "Tutored and taught university students about Java programming, including OOP design, debugging, and unit testing.",
-            "Assessed student assessment, giving constructive feedbacks and ensuring students follow good programming practices."
-            ]
-        },
-        {
-            "name": "The University of Queensland",
-            "title": "ICTE Volunteer",
-            "href": "https://www.uq.edu.au/",
-            "logo": "/UQ.png",
-            "start": "Oct 2019",
-            "end": "Feb 2020",
-            "description": [
-            "Coordinated and managed 10+ campus events, including cultural activities and language workshops, improving engagement by 20%.",
-            "Mentored 50+ international students, helping them getting involved in the campus life and improving their confidence in conversational English by organising weekly meetups."
-            ]
-        }
-    ]
-  }
+  "work": [
+    {
+      "name": "Fitness First Australia",
+      "title": "Membership Consultant",
+      "logo": "/FF.jfif",
+      "start": "Jan 205",
+      "end": "Mar 2026",
+      "description": [
+        "Generated over 35% of total club sales and ranked #1 and #2 nationwide for monthly sales across Fitness and Lifestyle Group clubs in consecutive months.",
+
+        "Managed the full sales cycle from outbound prospecting and appointment setting through discovery, product presentation, objection handling, closing and structured follow-up.",
+
+        "Conducted 60–120 outbound calls per working day, converting connected prospects into appointments and maintaining strong appointment attendance and sales conversion rates.",
+
+        "Converted approximately 40% of attended appointments into memberships, averaging around 45 sales per month.",
+
+        "Managed prospect pipelines in GymSales CRM, maintaining accurate customer records, follow-up actions, sales activity and opportunity prioritisation.",
+
+        "Increased qualified leads by approximately 30% through social media marketing, referrals, community outreach, university engagement and local promotional activities."
+      ]
+    },
+    {
+      "name": "Red Bridge",
+      "title": "Sales Representative",
+      "logo": "/RB.png",
+      "start": "Aug 2024",
+      "end": "Dec 2024",
+      "description": [
+        "Managed prospective customers through initial enquiries, discovery conversations, product presentations, follow-up and conversion while supporting customer-facing activities.",
+        "Conducted market research and supported digital marketing activities that contributed to increased organic customer traffic."
+      ]
+    },
+    {
+      "name": "The University of Queensland",
+      "title": "Academic Tutor",
+      "href": "https://www.uq.edu.au/",
+      "logo": "/UQ.png",
+      "start": "Jul 2022",
+      "end": "Dec 2022",
+      "description": [
+        "Tutored and taught university students about Java programming, including OOP design, debugging, and unit testing.",
+        "Assessed student assessment, giving constructive feedbacks and ensuring students follow good programming practices."
+      ]
+    },
+    {
+      "name": "The University of Queensland",
+      "title": "ICTE Volunteer",
+      "href": "https://www.uq.edu.au/",
+      "logo": "/UQ.png",
+      "start": "Oct 2019",
+      "end": "Feb 2020",
+      "description": [
+        "Coordinated and managed 10+ campus events, including cultural activities and language workshops, improving engagement by 20%.",
+        "Mentored 50+ international students, helping them getting involved in the campus life and improving their confidence in conversational English by organising weekly meetups."
+      ]
+    }
+  ]
+}
