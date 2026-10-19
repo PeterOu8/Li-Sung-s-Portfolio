@@ -5,10 +5,12 @@ export default function ContactPage() {
     <section className="container flex flex-col gap-10">
       <h1 className="title text-5xl">Let&apos;s talk!</h1>
       <p>
-        I’m looking for an SDR or BDR opportunity where curiosity, disciplined
-        prospecting and technical understanding are valuable. If you’re building
-        a SaaS, fintech, cybersecurity or technology sales team, I’d be pleased
-        to learn about your product and discuss how I could contribute.
+        Got an idea, an opportunity, or a problem worth solving? I'm always up
+        for a good conversation, whether it's about software, business, an
+        interesting project, or something completely unexpected. No need for a
+        perfect pitch. Just say hi, tell me what's on your mind, and we'll take
+        it from there. I promise I'm better at replying to emails than answering
+        unknown phone numbers.
       </p>
       <ContactForm />
     </section>

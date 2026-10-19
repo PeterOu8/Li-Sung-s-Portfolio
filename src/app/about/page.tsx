@@ -7,54 +7,26 @@ export default function AboutPage() {
       <div className="flex flex-col">
         <h1 className="title text-5xl">About Me</h1>
         <h2 className="py-10 text-foreground/80 text-lg">
-          I’m Peter Ou, a sales professional with a background in software
-          development, business and marketing. I enjoy the part of sales that
-          happens before the opportunity exists: researching the customer,
-          earning their attention, understanding what matters and creating
-          enough relevance for a genuine conversation. My software background
-          helps me learn technical products quickly. My sales experience taught
-          me how to explain their value without making the conversation
-          unnecessarily technical.
+          I'm Peter Ou, a business-minded software engineer who's probably a
+          little too curious for his own good. I like digging into problems,
+          asking too many "whys," and figuring out what actually matters before
+          jumping into solutions (though Google and Stack Overflow occasionally
+          save the day). Software engineering taught me how things work,
+          marketing taught me why people care, and sales taught me that nobody
+          cares how brilliant your solution is until you explain why it matters
+          to them. I enjoy connecting the dots between technology, business, and
+          people—and making complicated things a little less complicated.
         </h2>
-        <div className="gap-1">
-          <h1 className="title text-3xl">Why sales?</h1>
+        <div>
+          <h1 className="title text-3xl">What drives me</h1>
           <h2 className="py-10 text-foreground/80 text-lg">
-            I began on the product side, learning how software is designed,
-            built and improved. But I discovered that the part I enjoyed most
-            was understanding people: why they hesitate, what they actually need
-            and what gives them enough confidence to make a decision.
-          </h2>
-          <h1 className="title text-3xl">A lesson from the phones</h1>
-          <h2 className="py-10 text-foreground/80 text-lg">
-            Most days began with a long call list and no guarantee that anyone
-            would answer. High activity mattered, but repeating the same script
-            was not enough. I learned to notice where conversations stalled,
-            change how I opened calls, ask clearer questions and record enough
-            context to make the next follow-up relevant. That experience taught
-            me that resilience is not simply tolerating rejection. It is using
-            rejection as information and returning with a better approach.
-          </h2>
-          <h1 className="title text-3xl">My technical advantage</h1>
-          <h2 className="py-10 text-foreground/80 text-lg">
-            I don’t use technical knowledge to make sales conversations more
-            complicated. I use it to make them clearer.
-            <br />
-            <br />
-            My experience with C#/.NET, React, SQL, APIs and SaaS architecture
-            helps me:
-            <br />
-            <ul className="py-10 text-foreground/80 text-lg list-disc list-inside">
-              <li>Understand technical products and integrations quickly</li>
-              <li>Communicate credibly with technical stakeholders</li>
-              <li>
-                Translate product functionality into practical business outcomes
-              </li>
-              <li>Ask better questions during discovery</li>
-              <li>
-                Work effectively with product, engineering and customer-success
-                teams
-              </li>
-            </ul>
+            I'm interested in the space where technology, business, and human
+            behaviour meet. I enjoy the process of turning uncertainty into
+            understanding, whether that means breaking down a technical problem,
+            discovering what a customer really needs, or finding a simpler way
+            to explain a complex idea. For me, good work starts with curiosity,
+            becomes useful through understanding, and creates value when it
+            solves a problem that actually matters.
           </h2>
         </div>
       </div>

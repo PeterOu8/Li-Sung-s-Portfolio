@@ -18,17 +18,17 @@ export const HeroSection = () => {
           <div>
             <h1 className="title text-5xl">Hello, I am Peter 👋</h1>
             <h2 className="text-2xl text-muted mt-4">
-              Business Development · SaaS · Fintech
+              Software Engineer
               <br />
             </h2>
             <div className="flex flex-row items-center my-2">
               <MapPin size={'20'} />
-              <h3 className="text-muted text-lg ml-1">Sydney, Australia</h3>
+              <h3 className="text-muted text-lg ml-1">Australia</h3>
             </div>
             <div className="flex flex-end mt-2"></div>
             <p>
-              I’m a sales professional with a background in software
-              development, business and marketing.
+              I’m a software engineer fueled by caffeine and late-night coding
+              sessions.
             </p>
             <div className="flex flex-row items-center mt-4">
               <Link href="/Resume.pdf" target="_blank">
