@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="flex flex-col">
         <h1 className="page-title">About Me</h1>
         <p className="py-8 text-base leading-[25px] text-muted">
-          I&apos;m Li-Sung Ou, a business-minded software engineer who&apos;s
+          I&apos;m Li-Sung Ou, a business-minded fullstack developer who&apos;s
           probably a little too curious for his own good. I like digging into
           problems, asking too many &quot;whys,&quot; and figuring out what
           actually matters before jumping into solutions (though Google and

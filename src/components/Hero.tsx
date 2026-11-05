@@ -22,7 +22,7 @@ export const HeroSection = () => {
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-4">
             <Button asChild>
-              <Link href="/Resume.pdf" target="_blank" rel="noreferrer">
+                <Link href="/AU.pdf" target="_blank" rel="noreferrer">
                 <span className="font-semibold">Resume</span>
                 <FileDown aria-hidden="true" />
               </Link>
