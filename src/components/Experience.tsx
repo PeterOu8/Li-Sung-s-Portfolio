@@ -11,7 +11,7 @@ export const ExperienceSection = () => {
   return (
     <section className="container">
       <Tabs defaultValue="work">
-        <TabsList className="mb-2 grid w-full    grid-cols-2">
+        <TabsList className="mb-2 grid w-full grid-cols-2">
           <TabsTrigger value="work">Work</TabsTrigger>
           <TabsTrigger value="education">Education</TabsTrigger>
         </TabsList>

@@ -1,6 +1,19 @@
 {
   "work": [
     {
+      "name": "Meta Cellular",
+      "title": "Web Developer Intern",
+      "start": "Mar 2026",
+      "end": "Oct 2026",
+      "description": [
+        "Assisted in developing responsive web pages using TypeScript and React, translating design mockups into reusable components.",
+        "Supported integration with REST APIs, implementing data display, form validation, and loading and error states for internal company tools under senior developer supervision.",
+        "Investigated layout and functionality issues using browser developer tools, improving usability across desktop and mobile screens.",
+        "Used Git for version control and participated in code reviews, learning team conventions, debugging techniques, and maintainable coding practices.",
+        "Collaborated with developers and designers to clarify requirements, test changes, and document implementation details."
+      ]
+    },
+    {
       "name": "Fitness First Australia",
       "title": "Membership Consultant",
       "start": "Jan 205",

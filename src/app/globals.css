@@ -13,7 +13,7 @@
     @apply text-2xl tracking-wide font-serif;
   }
   .surface-card {
-    @apply border border-border rounded-xl bg-surface shadow-sm;
+    @apply border border-border rounded-xl bg-surface/75 shadow-sm;
   }
   .action-chip {
     @apply flex items-center gap-1 rounded-md border border-foreground bg-foreground px-2 py-0.5 text-background;

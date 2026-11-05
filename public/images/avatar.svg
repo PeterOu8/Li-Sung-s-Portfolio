@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">Developer at laptop</title>
+<desc id="desc">Minimal portrait of a smiling developer behind a laptop, in Signal Graphite and amber.</desc>
+<!-- Silhouette and sleeves -->
+<path d="M10 117c0-20 10-31 30-36l15-4h18l15 4c20 5 30 16 30 36" fill="#8A4B08"/>
+<!-- Ears, neck and face -->
+<rect x="55" y="68" width="18" height="18" rx="7" fill="#F2C17B"/>
+<circle cx="32" cy="52" r="7" fill="#F2C17B"/>
+<circle cx="96" cy="52" r="7" fill="#F2C17B"/>
+<path d="M31 39c0-19 13-31 33-31s33 12 33 31v16c0 21-14 34-33 34S31 76 31 55V39Z" fill="#F2C17B"/>
+<!-- Side-parted hair, deliberately chunky to read as a favicon -->
+<path d="M29 52V39c0-21 14-34 35-34 22 0 35 13 35 34v13h-7V39c-23 0-33-7-37-18-5 12-13 18-19 19v12h-7Z" fill="#242526"/>
+<path d="M36 40c9-2 18-10 21-20 5 12 15 17 35 19" fill="none" stroke="#242526" stroke-width="5" stroke-linecap="round"/>
+<!-- Face: eyes, gentle smile -->
+<rect x="47" y="49" width="6" height="10" rx="3" fill="#242526"/>
+<rect x="75" y="49" width="6" height="10" rx="3" fill="#242526"/>
+<path d="M56 69c4.6 4.7 11.4 4.7 16 0" fill="none" stroke="#8A4B08" stroke-width="3.5" stroke-linecap="round"/>
+<!-- Laptop is a crisp, friendly rectangular shape -->
+<rect x="20" y="77" width="88" height="42" rx="7" fill="#FFFFFF" stroke="#242526" stroke-width="3.5"/>
+<!-- Small, identifiable code symbol -->
+<path d="m51 92-8 7 8 7" fill="none" stroke="#242526" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m77 92 8 7-8 7" fill="none" stroke="#242526" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m70 90-11 19" fill="none" stroke="#8A4B08" stroke-width="5" stroke-linecap="round"/>
+<path d="M13 119h102l-5 5H18l-5-5Z" fill="#242526"/>
+</svg>

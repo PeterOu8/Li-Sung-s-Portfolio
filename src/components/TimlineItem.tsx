@@ -10,7 +10,7 @@ export const TimelineItem = ({ experience }: Props) => {
   const { name, title, start, end, description, links } = experience;
 
   return (
-    <li className="relative ml-10 py-4">
+    <li className="relative pl-2 py-4">
       <div>
         {start && (
           <time className="text-xs text-muted">
@@ -19,8 +19,8 @@ export const TimelineItem = ({ experience }: Props) => {
             <span>{end ? end : 'Present'}</span>
           </time>
         )}
-        <h2 className="font-semibold leading-none">{name}</h2>
-        {title && <p className="text-sm text-muted">{title}</p>}
+        <h2 className="font-semibold leading-none">{title}</h2>
+        {title && <p className="text-sm text-muted">{name}</p>}
         {description && (
           <ul className=" pt-1 list-inside list-disc">
             {description.map((desc, i) => (

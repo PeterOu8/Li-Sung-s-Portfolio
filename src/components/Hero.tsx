@@ -9,10 +9,10 @@ export const HeroSection = () => {
     <section className="container">
       <div className="flex flex-col items-center gap-10 md:flex-row-reverse md:justify-end">
         <Image
-          src={'/images/memoji.png'}
+          src={'/images/avatar.svg'}
+          alt="Me coding from behind laptop"
           width={210}
           height={210}
-          alt="Me coding from behind laptop"
         />
         <div className="flex flex-row items-center">
           <div>
