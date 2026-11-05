@@ -2,21 +2,29 @@
   "projects": [
     {
       "name": "Resumade",
-      "description": "AI powered resume builder designed to help me through my job searches. Tailor resumes with job description and the help of AI.",
-      "href": "https://github.com/PeterOu8/Resumade",
+      "description": "A modern resume builder with flexible editing, intelligent AI tailoring assistance, and real-time previews.",
+      "href": "https://resumade-zeta.vercel.app",
       "image": "/resumade.png",
       "tags": [
         ".NET10",
         "C#",
-        "PostgreSQL",
-        "OPEN AI APIs",
-        "RESTAPI",
         "Next.js",
-        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "EF Core",
+        "Auth.js",
+        "JWT",
+        "RESTAPI",
+        "GitHub Actions",
         "TailwindCSS",
         "shadcn/ui"
       ],
       "links": [
+        {
+          "name": "Live",
+          "href": "https://resumade-zeta.vercel.app",
+          "icon": "globe"
+        },
         {
           "name": "Source",
           "href": "https://github.com/PeterOu8/Resumade",
