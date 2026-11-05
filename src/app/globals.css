@@ -3,31 +3,59 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth bg-background;
+  }
+
   body {
-    @apply antialiased bg-background text-foreground font-primary max-w-4xl mx-auto;
+    @apply bg-background font-primary text-foreground antialiased;
   }
+
+  ::selection {
+    @apply bg-accent text-foreground;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    max-width: 992px;
+  }
+
   .nav-item {
-    @apply px-4 py-1.5 rounded-full text-muted text-sm font-semibold hover:bg-subtle hover:text-primary transition-colors duration-300;
+    @apply focus-ring inline-flex min-h-9 items-center rounded-full px-3 py-1.5 text-sm font-semibold text-muted transition-colors duration-200 hover:bg-accent hover:text-primary sm:px-4;
   }
-  .title {
-    @apply text-2xl tracking-wide font-serif;
+  .page-title {
+    @apply font-serif text-4xl leading-tight tracking-wide md:text-5xl;
+  }
+  .section-title {
+    @apply text-2xl font-semibold leading-8;
   }
   .surface-card {
-    @apply border border-border rounded-xl bg-surface/75 shadow-sm;
+    @apply rounded-xl border border-border bg-surface shadow-sm;
   }
   .action-chip {
-    @apply flex items-center gap-1 rounded-md border border-foreground bg-foreground px-2 py-0.5 text-background;
+    @apply flex min-h-9 items-center gap-1 rounded-md border border-border bg-surface px-2 py-1 text-primary shadow-sm transition-colors duration-200 hover:border-primary hover:bg-accent;
   }
   .tag-chip {
-    @apply rounded-md border border-border bg-subtle px-1 py-0 text-xs text-foreground;
+    @apply rounded-md border border-border bg-subtle px-2 py-1 text-xs leading-4 text-foreground;
   }
   .soft-chip {
-    @apply flex items-center gap-2 rounded-xl bg-subtle p-2;
+    @apply flex items-center gap-2 rounded-xl border border-border bg-subtle px-3 py-2;
   }
   .text-link {
-    @apply text-primary underline-offset-4 hover:underline;
+    @apply text-primary underline-offset-4 transition-colors duration-200 hover:underline;
   }
   .focus-ring {
     @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary;
+  }
+  .form-control {
+    @apply w-full rounded-md border border-control bg-surface text-foreground shadow-sm transition-colors duration-200 placeholder:text-muted disabled:cursor-not-allowed disabled:opacity-50;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }

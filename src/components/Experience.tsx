@@ -9,7 +9,7 @@ export const ExperienceSection = () => {
   const education = educationSchema.parse(educationData).education;
 
   return (
-    <section className="container">
+    <section id="experience" className="container scroll-mt-6">
       <Tabs defaultValue="work">
         <TabsList className="mb-2 grid w-full grid-cols-2">
           <TabsTrigger value="work">Work</TabsTrigger>

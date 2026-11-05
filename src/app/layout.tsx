@@ -24,11 +24,12 @@ export const metadata: Metadata = {
     description: "Li-Sung's portfolio page",
     icons: {
         icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+        shortcut: [{ url: "/favicon.ico", type: "image/x-icon" }],
     },
 };
 
 export const viewport: Viewport = {
-    themeColor: "#FAFAF8",
+    themeColor: "#F7F7F4",
     colorScheme: "light",
 };
 
@@ -44,7 +45,7 @@ export default function RootLayout({
                 calistoga.variable
                 )}>
                 <Header/>
-                <main className="my-20">{children}</main>
+                <main className="my-12 md:my-16">{children}</main>
                 <Footer />
                 <Analytics />
                 <SpeedInsights />

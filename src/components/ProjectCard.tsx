@@ -11,23 +11,24 @@ export const ProjectCard = ({ project }: Props) => {
     const { name, description, href, image, tags, links } = project;
 
     return (
-        <div className="surface-card flex flex-col p-6">
+        <article className="surface-card flex min-w-0 flex-col p-5">
             {image && (
-                <Link href={href || image}>
+                <Link href={href || image} className="focus-ring block aspect-[16/10] overflow-hidden rounded-md bg-subtle p-2">
                     <Image
                         src={image}
                         alt={name}
                         width={500}
                         height={300}
-                        className="h-40 w-full object-contain hover:object-scale-down object-center"
+                        className="h-full w-full object-contain object-center"
                     />
                 </Link>
             )}
-            <article className="flex flex-col gap-1 h-full py-4">
-                <h1 className="text-xl font-bold">{name}</h1>
-                <p className="text-muted text-sm">{description}</p>
-            </article>
-            <div className="flex h-full flex-col items-start justify-between gap-4">
+            <div className="flex flex-1 flex-col">
+              <div className="py-4">
+                <h2 className="text-xl font-semibold leading-7">{name}</h2>
+                <p className="mt-3 text-sm leading-6 text-muted">{description}</p>
+              </div>
+              <div className="mt-auto">
                 <div className="flex flex-row flex-wrap gap-2">
                     {tags.map(tag => (
                         <div key={tag} className="tag-chip">
@@ -35,15 +36,16 @@ export const ProjectCard = ({ project }: Props) => {
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-row justify-start gap-2">
+                <div className="mt-4 flex flex-wrap justify-start gap-2">
                     {links.map(link => (
-                        <Link key={link.name} href={link.href} target="_blank" className="action-chip focus-ring">
+                        <Link key={link.name} href={link.href} target="_blank" rel="noreferrer" className="action-chip focus-ring">
                             <Icon name={link.icon} size={12}/>
                             <span className="text-xs font-semibold">{link.name}</span>
                         </Link>
                     ))}
                 </div>
+              </div>
             </div>
-        </div>
+        </article>
     );
 }

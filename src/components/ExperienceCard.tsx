@@ -8,7 +8,7 @@ interface Props {
 export const ExperienceCard = ({ experience }: Props) => {
   return (
     <div className="surface-card">
-      <ul className="p-12 pt-3 pb-4 divide-y">
+      <ul className="divide-y divide-border px-5 md:px-7 lg:px-8">
         {experience.map((exp, id) => (
           <TimelineItem key={id} experience={exp} />
         ))}

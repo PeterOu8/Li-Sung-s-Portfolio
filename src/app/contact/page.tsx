@@ -4,9 +4,9 @@ import socialData from '@/data/socials.json';
 
 export default function ContactPage() {
   return (
-    <section className="container flex flex-col gap-10">
-      <h1 className="title text-5xl">Let&apos;s talk!</h1>
-      <p>
+    <section className="container flex flex-col gap-6">
+      <h1 className="page-title">Let&apos;s talk!</h1>
+      <p className="max-w-3xl text-base leading-[25px] text-muted">
         Got an idea, an opportunity, or a problem worth solving? I&apos;m always up
         for a good conversation, whether it&apos;s about software, business, an
         interesting project, or something completely unexpected. No need for a

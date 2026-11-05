@@ -12,9 +12,9 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '2rem',
+        DEFAULT: '1.25rem',
+        sm: '2rem',
         md: '3rem',
-        sm: '8rem',
       },
     },
     fontFamily: {
@@ -23,13 +23,15 @@ const config: Config = {
     },
     extend: {
       colors: {
-        primary: '#c96716',
-        background: '#f0eee6',
-        surface: '#FBFBFB',
+        primary: '#8A4B08',
+        background: '#F7F7F4',
+        surface: '#FFFFFF',
         foreground: '#242526',
         muted: '#585A5B',
-        border: '#D6D7D4',
-        subtle: '#F6EDDD',
+        border: '#DEDFD9',
+        control: '#85877E',
+        subtle: '#EEEFEA',
+        accent: '#F6E8D1',
         danger: '#B42318',
       },
     },

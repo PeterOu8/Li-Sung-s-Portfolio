@@ -2,47 +2,51 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Socials } from '@/components/Socials';
-import { FileDown, MapPin } from 'lucide-react';
+import { ArrowDown, FileDown, MapPin } from 'lucide-react';
 
 export const HeroSection = () => {
   return (
-    <section className="container">
-      <div className="flex flex-col items-center gap-10 md:flex-row-reverse md:justify-end">
+    <section className="container pt-0 md:pt-4">
+      <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between md:gap-8">
+        <div className="min-w-0 flex-1">
+          <h1 className="page-title">Hello, I am Li-Sung 👋</h1>
+          <h2 className="mt-4 text-xl leading-7 text-muted md:text-2xl md:leading-8">
+            Fullstack Engineer
+          </h2>
+          <div className="my-2 flex items-center text-muted">
+            <MapPin aria-hidden="true" size={20} />
+            <p className="ml-1 text-lg">Australia</p>
+          </div>
+          <p className="max-w-xl text-base leading-[25px]">
+            I’m a fullstack fueled by caffeine and late-night coding sessions.
+          </p>
+          <div className="mt-4 flex flex-wrap items-center gap-4">
+            <Button asChild>
+              <Link href="/Resume.pdf" target="_blank" rel="noreferrer">
+                <span className="font-semibold">Resume</span>
+                <FileDown aria-hidden="true" />
+              </Link>
+            </Button>
+            <div className="flex items-center">
+              <Socials />
+            </div>
+            <Link
+              href="#projects"
+              className="focus-ring inline-flex min-h-9 items-center gap-2 rounded-md text-sm font-semibold text-primary transition-colors duration-200 hover:text-foreground"
+            >
+              View projects
+              <ArrowDown aria-hidden="true" className="size-4" />
+            </Link>
+          </div>
+        </div>
         <Image
           src={'/images/avatar.svg'}
           alt="Me coding from behind laptop"
           width={210}
           height={210}
+          className="size-40 shrink-0 md:size-[190px] lg:size-[210px]"
+          priority
         />
-        <div className="flex flex-row items-center">
-          <div>
-            <h1 className="title text-5xl">Hello, I am Peter 👋</h1>
-            <h2 className="text-2xl text-muted mt-4">
-              Software Engineer
-              <br />
-            </h2>
-            <div className="flex flex-row items-center my-2">
-              <MapPin size={'20'} />
-              <h3 className="text-muted text-lg ml-1">Australia</h3>
-            </div>
-            <div className="flex flex-end mt-2"></div>
-            <p>
-              I’m a software engineer fueled by caffeine and late-night coding
-              sessions.
-            </p>
-            <div className="flex flex-row items-center mt-4">
-              <Link href="/Resume.pdf" target="_blank">
-                <Button>
-                  <span className="font-semibold">Resume</span>
-                  <FileDown />
-                </Button>
-              </Link>
-              <div className="flex flex-row ml-8">
-                <Socials />
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

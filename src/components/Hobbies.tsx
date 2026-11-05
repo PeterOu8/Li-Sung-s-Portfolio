@@ -37,7 +37,7 @@ export const Hobbies = () => {
     return (
         <div className="flex flex-row flex-wrap gap-3">
             {hobbies.map(hobby => (
-                <div key={hobby.title} className="inline-flex items-center gap-1 rounded-2xl bg-subtle px-4 py-1">
+                <div key={hobby.title} className="soft-chip">
                     <span className="font-medium text-foreground">{hobby.title}</span>
                     <span>{hobby.emoji}</span>
                 </div>

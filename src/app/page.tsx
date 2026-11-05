@@ -6,7 +6,7 @@ import { SkillSection } from "@/components/Skills";
 export default function Home() {
     const MAX_PROJECTS = 2;
     return (
-        <div className="flex flex-col items-center gap-20">
+        <div className="flex flex-col items-center gap-12 md:gap-16">
             <HeroSection />
             <ExperienceSection />
             <ProjectSection limit={MAX_PROJECTS}/>

@@ -24,7 +24,7 @@ const techStack = [
 
 export const SkillIcons = () => {
   return (
-    <div className="flex flex-row flex-wrap gap-3">
+    <div className="flex flex-wrap gap-3">
       {techStack.map((skill) => (
         <div key={skill.name} className="soft-chip">
           <StackIcon
@@ -32,7 +32,7 @@ export const SkillIcons = () => {
             name={skill.iconTitle}
             className="size-6"
           />
-          <span className="text-sm text-foreground/80 font-medium">
+          <span className="text-sm font-medium leading-5 text-foreground">
             {skill.name}
           </span>
         </div>

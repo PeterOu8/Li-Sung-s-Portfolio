@@ -79,16 +79,16 @@ export function ContactForm({ fields, contactHref }: ContactFormProps) {
     <Form {...form}>
       <form
         noValidate
-        aria-label="Contact Peter"
+        aria-label="Contact Me"
         aria-busy={isSubmitting}
         onSubmit={(event) => {
           void form.handleSubmit(submitMessage)(event);
         }}
-        className="space-y-6"
+        className="surface-card space-y-6 p-5 md:p-7"
       >
         <fieldset
           disabled={isSubmitting}
-          className="grid min-w-0 gap-3 md:grid-cols-2"
+          className="grid min-w-0 gap-6 md:grid-cols-2"
         >
           <legend className="sr-only">Your contact details and message</legend>
           {fields.map((definition) => (
@@ -151,7 +151,10 @@ export function ContactForm({ fields, contactHref }: ContactFormProps) {
           role="status"
           aria-live="polite"
           aria-atomic="true"
-          className={cn('text-sm', result?.success === false && 'text-danger')}
+          className={cn(
+            'min-h-5 text-sm',
+            result?.success === false && 'text-danger',
+          )}
         >
           {statusMessage}
         </p>
