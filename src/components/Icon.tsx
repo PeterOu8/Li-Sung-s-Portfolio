@@ -1,13 +1,21 @@
-import dynamic from 'next/dynamic'
-import dynamicIconImports from 'lucide-react/dynamicIconImports';
-import { LucideProps } from 'lucide-react';
+import { ChevronRight, Github, Globe, Linkedin, Mail, type LucideProps } from 'lucide-react';
+
+const icons = {
+  'chevron-right': ChevronRight,
+  github: Github,
+  globe: Globe,
+  linkedin: Linkedin,
+  mail: Mail,
+};
+
+export type IconName = keyof typeof icons;
 
 interface IconProps extends LucideProps {
-  name: keyof typeof dynamicIconImports;
+  name: IconName;
 }
 
 const Icon = ({ name, ...props }: IconProps) => {
-  const LucideIcon = dynamic(dynamicIconImports[name])
+  const LucideIcon = icons[name];
 
   return <LucideIcon {...props} />;
 };

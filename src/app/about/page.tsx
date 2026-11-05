@@ -7,9 +7,9 @@ export default function AboutPage() {
       <div className="flex flex-col">
         <h1 className="title text-5xl">About Me</h1>
         <h2 className="py-10 text-foreground/80 text-lg">
-          I'm Peter Ou, a business-minded software engineer who's probably a
+          I&apos;m Peter Ou, a business-minded software engineer who&apos;s probably a
           little too curious for his own good. I like digging into problems,
-          asking too many "whys," and figuring out what actually matters before
+          asking too many &quot;whys,&quot; and figuring out what actually matters before
           jumping into solutions (though Google and Stack Overflow occasionally
           save the day). Software engineering taught me how things work,
           marketing taught me why people care, and sales taught me that nobody
@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div>
           <h1 className="title text-3xl">What drives me</h1>
           <h2 className="py-10 text-foreground/80 text-lg">
-            I'm interested in the space where technology, business, and human
+            I&apos;m interested in the space where technology, business, and human
             behaviour meet. I enjoy the process of turning uncertainty into
             understanding, whether that means breaking down a technical problem,
             discovering what a customer really needs, or finding a simpler way

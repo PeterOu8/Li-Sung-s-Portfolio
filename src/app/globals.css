@@ -3,16 +3,31 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply antialiased bg-background text-foreground font-primary max-w-4xl mx-auto;
-    }
-    .nav-item {
-        @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
-    }
-    .title {
-        @apply text-2xl tracking-wide font-serif;
-    }
-    .muted-border {
-        @apply border border-opacity-60 border-muted/50 rounded-xl shadow;
-    }
+  body {
+    @apply antialiased bg-background text-foreground font-primary max-w-4xl mx-auto;
+  }
+  .nav-item {
+    @apply px-4 py-1.5 rounded-full text-muted text-sm font-semibold hover:bg-subtle hover:text-primary transition-colors duration-300;
+  }
+  .title {
+    @apply text-2xl tracking-wide font-serif;
+  }
+  .surface-card {
+    @apply border border-border rounded-xl bg-surface shadow-sm;
+  }
+  .action-chip {
+    @apply flex items-center gap-1 rounded-md border border-foreground bg-foreground px-2 py-0.5 text-background;
+  }
+  .tag-chip {
+    @apply rounded-md border border-border bg-subtle px-1 py-0 text-xs text-foreground;
+  }
+  .soft-chip {
+    @apply flex items-center gap-2 rounded-xl bg-subtle p-2;
+  }
+  .text-link {
+    @apply text-primary underline-offset-4 hover:underline;
+  }
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary;
+  }
 }

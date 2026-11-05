@@ -8,7 +8,7 @@ export const Footer = () => {
             <div className="mt-8 sm:mt-0">
                 <p className="text-center text-md text-muted">
                     <span>&copy; {new Date().getFullYear()}</span>{" "}
-                    <Link className="link" href="/">
+                    <Link className="text-link focus-ring" href="/">
                         lisungou.com
                     </Link>
                 </p>

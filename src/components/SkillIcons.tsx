@@ -1,42 +1,37 @@
 import StackIcon from 'tech-stack-icons';
-import Image from 'next/image';
 
 const techStack = [
+  { name: '.NET 10', iconTitle: 'net' },
   { name: 'C#', iconTitle: 'csharp' },
   { name: 'PostgreSQL', iconTitle: 'postgresql' },
+  { name: 'Neon', iconTitle: 'neon' },
+  { name: 'Azure', iconTitle: 'azure' },
+  { name: 'Docker', iconTitle: 'docker' },
   { name: 'Java', iconTitle: 'java' },
-  { name: 'Node.js', iconTitle: 'nodejs' },
-  { name: 'NextJS', iconTitle: 'nextjs2' },
-  { name: 'React', iconTitle: 'reactjs' },
-  { name: 'JavaScript', iconTitle: 'js' },
+  { name: 'Git', iconTitle: 'git' },
+  { name: 'NextJS', iconTitle: 'nextjs' },
+  { name: 'React', iconTitle: 'react' },
   { name: 'Typecript', iconTitle: 'typescript' },
+  { name: 'JavaScript', iconTitle: 'js' },
+  { name: 'Node.js', iconTitle: 'nodejs' },
   { name: 'TailwindCSS', iconTitle: 'tailwindcss' },
   { name: 'HTML5', iconTitle: 'html5' },
   { name: 'CSS3', iconTitle: 'css3' },
   { name: 'shadcn/ui', iconTitle: 'shadcnui' },
-  { name: 'Git', iconTitle: 'git' },
   { name: 'Jira', iconTitle: 'jira' },
+  { name: 'Resend', iconTitle: 'resend' },
 ];
 
 export const SkillIcons = () => {
   return (
     <div className="flex flex-row flex-wrap gap-3">
-      <div className="flex flex-row items-center gap-2 p-2 rounded-xl bg-muted/15">
-        <Image
-          src="/dotnet.svg"
-          alt="dotnet 10 icon"
-          width={100}
-          height={100}
-          className="size-6"
-        />
-        <span className="text-sm text-foreground/80 font-medium">.NET10</span>
-      </div>
       {techStack.map((skill) => (
-        <div
-          key={skill.name}
-          className="flex flex-row items-center gap-2 p-2 rounded-xl bg-muted/15"
-        >
-          <StackIcon name={skill.iconTitle} className="size-6" />
+        <div key={skill.name} className="soft-chip">
+          <StackIcon
+            variant="light"
+            name={skill.iconTitle}
+            className="size-6"
+          />
           <span className="text-sm text-foreground/80 font-medium">
             {skill.name}
           </span>

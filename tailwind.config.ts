@@ -2,10 +2,7 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
     content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
   	screens: {
@@ -28,10 +25,14 @@ const config: Config = {
   	},
   	extend: {
   		colors: {
-  			primary: '#252024',
-            background: '#252024',
-            foreground: '#f8fafc',
-            muted: '#9ca3af'
+            primary: '#8A4B08',
+            background: '#FAFAF8',
+            surface: '#FFFFFF',
+            foreground: '#242526',
+            muted: '#585A5B',
+            border: '#D6D7D4',
+            subtle: '#F6EDDD',
+            danger: '#B42318'
   		},
   	},
   },

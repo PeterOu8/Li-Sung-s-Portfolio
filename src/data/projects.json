@@ -6,15 +6,16 @@
       "href": "https://resumade-zeta.vercel.app",
       "image": "/resumade.png",
       "tags": [
-        ".NET10",
+        ".NET 10",
         "C#",
-        "Next.js",
+        "Next.js 16",
         "TypeScript",
         "PostgreSQL",
         "EF Core",
         "Auth.js",
         "JWT",
         "RESTAPI",
+        "Azure Web App",
         "GitHub Actions",
         "TailwindCSS",
         "shadcn/ui"
@@ -33,11 +34,42 @@
       ]
     },
     {
+      "name": "Blotz Task",
+      "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
+      "image": "/blotztask.png",
+      "href": "https://www.blotztask.com",
+      "tags": [
+        ".NET 10",
+        "C#",
+        "Next.js 16",
+        "EF Core",
+        "SQL Server",
+        "Auth0",
+        "RESTAPI",
+        "Zustand",
+        "React",
+        "TailwindCSS",
+        "shadcn/ui"
+      ],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://www.blotztask.com",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/sol-wizard/Blotz-Task-App",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Blotz Devshare",
       "description": "Resource sharing platform designed to help users efficiently search curated software devloper resources with AI embeddings in vector database",
       "image": "/devshare.png",
       "tags": [
-        ".NET9",
+        ".NET 9",
         "C#",
         "OPEN AI APIs",
         "Qdrant",
@@ -53,29 +85,6 @@
         {
           "name": "Source",
           "href": "https://github.com/Ben0189/dev-share",
-          "icon": "github"
-        }
-      ]
-    },
-    {
-      "name": "Blotz Task",
-      "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
-      "image": "/blotztask.png",
-      "tags": [
-        ".NET8",
-        "C#",
-        "SQL Server",
-        "CRUD",
-        "RESTAPI",
-        "Next.js",
-        "React",
-        "TailwindCSS",
-        "shadcn/ui"
-      ],
-      "links": [
-        {
-          "name": "Source",
-          "href": "https://github.com/sol-wizard/Blotz-Task-App",
           "icon": "github"
         }
       ]

@@ -3,7 +3,6 @@
     {
       "name": "Fitness First Australia",
       "title": "Membership Consultant",
-      "logo": "/FF.jfif",
       "start": "Jan 205",
       "end": "Mar 2026",
       "description": [
@@ -23,7 +22,6 @@
     {
       "name": "Red Bridge",
       "title": "Sales Representative",
-      "logo": "/RB.png",
       "start": "Aug 2024",
       "end": "Dec 2024",
       "description": [
@@ -34,8 +32,6 @@
     {
       "name": "The University of Queensland",
       "title": "Academic Tutor",
-      "href": "https://www.uq.edu.au/",
-      "logo": "/UQ.png",
       "start": "Jul 2022",
       "end": "Dec 2022",
       "description": [
@@ -46,8 +42,6 @@
     {
       "name": "The University of Queensland",
       "title": "ICTE Volunteer",
-      "href": "https://www.uq.edu.au/",
-      "logo": "/UQ.png",
       "start": "Oct 2019",
       "end": "Feb 2020",
       "description": [

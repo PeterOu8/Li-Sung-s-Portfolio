@@ -14,7 +14,7 @@ export const Socials = () => {
                 key={item.name}
                 target="_blank"
                 title={item.name}
-                className="text-foreground/90 hover:text-muted transition duration-300"
+                className="focus-ring text-foreground transition-colors duration-300 hover:text-primary"
                 >
                 <Icon name={item.icon}/>
                 </a>

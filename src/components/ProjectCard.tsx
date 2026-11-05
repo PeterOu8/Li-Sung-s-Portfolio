@@ -11,7 +11,7 @@ export const ProjectCard = ({ project }: Props) => {
     const { name, description, href, image, tags, links } = project;
 
     return (
-        <div className="flex flex-col muted-border p-6">
+        <div className="surface-card flex flex-col p-6">
             {image && (
                 <Link href={href || image}>
                     <Image
@@ -30,14 +30,14 @@ export const ProjectCard = ({ project }: Props) => {
             <div className="flex h-full flex-col items-start justify-between gap-4">
                 <div className="flex flex-row flex-wrap gap-2">
                     {tags.map(tag => (
-                        <div key={tag} className="text-xs bg-foreground text-background muted-border rounded-md p-1 py-0">
+                        <div key={tag} className="tag-chip">
                             {tag}
                         </div>
                     ))}
                 </div>
                 <div className="flex flex-row justify-start gap-2">
                     {links.map(link => (
-                        <Link key= {link.name} href={link.href} target="_blank" className="flex gap-1 items-center bg-foreground text-background muted-border rounded-md p-2 py-0.5">
+                        <Link key={link.name} href={link.href} target="_blank" className="action-chip focus-ring">
                             <Icon name={link.icon} size={12}/>
                             <span className="text-xs font-semibold">{link.name}</span>
                         </Link>

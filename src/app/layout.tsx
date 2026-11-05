@@ -1,12 +1,11 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Hanken_Grotesk, Calistoga} from 'next/font/google';
 import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Toaster } from "sonner";
 
 const hankenGrotesk = Hanken_Grotesk({
     subsets: ["latin"],
@@ -23,6 +22,14 @@ const calistoga = Calistoga({
 export const metadata: Metadata = {
     title: "Li-Sung's Portfolio",
     description: "Li-Sung's portfolio page",
+    icons: {
+        icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    },
+};
+
+export const viewport: Viewport = {
+    themeColor: "#FAFAF8",
+    colorScheme: "light",
 };
 
 export default function RootLayout({
@@ -39,7 +46,6 @@ export default function RootLayout({
                 <Header/>
                 <main className="my-20">{children}</main>
                 <Footer />
-                <Toaster />
                 <Analytics />
                 <SpeedInsights />
             </body>
