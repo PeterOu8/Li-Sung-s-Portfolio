@@ -18,11 +18,12 @@ export const HeroSection = () => {
             <p className="ml-1 text-lg">Australia</p>
           </div>
           <p className="max-w-xl text-base leading-[25px]">
-            I’m a fullstack fueled by caffeine and late-night coding sessions.
+            I'm a fullstack developer fueled by caffeine and late-night coding
+            sessions.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-4">
             <Button asChild>
-                <Link href="/AU.pdf" target="_blank" rel="noreferrer">
+              <Link href="/Resume.pdf" target="_blank" rel="noreferrer">
                 <span className="font-semibold">Resume</span>
                 <FileDown aria-hidden="true" />
               </Link>
