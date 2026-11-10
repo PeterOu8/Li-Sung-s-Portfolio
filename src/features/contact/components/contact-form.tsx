@@ -126,7 +126,7 @@ export function ContactForm({ fields, contactHref }: ContactFormProps) {
               )}
             />
           ))}
-          <div hidden>
+          <div aria-hidden="true" className="absolute -left-[9999px] opacity-0">
             <label htmlFor="contact-website">Leave this field empty</label>
             <input
               id="contact-website"
