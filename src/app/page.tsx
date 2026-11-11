@@ -8,8 +8,8 @@ export default function Home() {
     return (
         <div className="flex flex-col items-center gap-12 md:gap-16">
             <HeroSection />
-            <ExperienceSection />
             <ProjectSection limit={MAX_PROJECTS}/>
+            <ExperienceSection />
             <SkillSection />
         </div>
     );

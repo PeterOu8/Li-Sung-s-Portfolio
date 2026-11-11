@@ -11,15 +11,15 @@ export const HeroSection = () => {
         <div className="min-w-0 flex-1">
           <h1 className="page-title">Hello, I am Li-Sung 👋</h1>
           <h2 className="mt-4 text-xl leading-7 text-muted md:text-2xl md:leading-8">
-            Fullstack Engineer
+            Software Engineer
           </h2>
           <div className="my-2 flex items-center text-muted">
             <MapPin aria-hidden="true" size={20} />
             <p className="ml-1 text-lg">Australia</p>
           </div>
           <p className="max-w-xl text-base leading-[25px]">
-            I'm a fullstack developer fueled by caffeine and late-night coding
-            sessions.
+            I enjoy connecting technology, business and people, and making
+            complicated things a little less complicated.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-4">
             <Button asChild>
