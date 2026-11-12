@@ -34,6 +34,25 @@
       ]
     },
     {
+      "name": "Corporate Translator",
+      "description": "An AI-powered corporate jargon translator that turns everyday English into exaggerated LinkedIn-style buzzwords and back, featuring adjustable corporate intensity and personality presets.",
+      "href": "https://corporate-translator-pi.vercel.app",
+      "image": "/corporate-translator.png",
+      "tags": ["Next.js", "React", "TypeScript", "Groq", "TailwindCSS"],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://corporate-translator-pi.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/PeterOu8/corporate-translator",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Blotz Task",
       "description": "Comprehensive task management application designed to help users efficiently organise and track productivity",
       "image": "/blotztask.png",
