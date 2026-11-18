@@ -2,15 +2,15 @@
   "work": [
     {
       "name": "Meta Cellular",
-      "title": "Web Developer Intern",
+      "title": "Full-Stack Developer",
       "start": "Mar 2026",
       "end": "Oct 2026",
       "description": [
-        "Delivered responsive, reusable React and TypeScript components and pages from design mockups for internal company tools.",
-        "Integrated front-end features with REST APIs, implementing data display, form validation, and loading and error states.",
-        "Diagnosed and resolved layout and functional defects with browser developer tools, improving usability across mobile devices.",
-        "Worked in a Git-based team workflow, taking part in code reviews and applying team conventions, debugging techniques and maintainable coding practices.",
-        "Collaborated with developers and designers to clarify requirements, test changes and document implementation details."
+        "Contributed to the development of an internal tool for laboratory inventory management and cell-processing request tracking.",
+        "Developed responsive dashboards, interactive data tables, and reusable UI components using React, TypeScript, and Tailwind CSS, streamlining internal workflows and improving data accessibility.",
+        "Implemented and integrated RESTful API endpoints using C# and ASP.NET Core, enabling inventory updates, request tracking, and data retrieval across the application.",
+        "Developed database queries and implemented CRUD operations using PostgreSQL, supporting reliable data storage, retrieval, and updates between frontend and backend services.",
+        "Translated operational requirements into functional application features, collaborating with laboratory and administrative staff to refine workflows, validate functionality, and deliver incremental enhancements."
       ]
     },
     {
